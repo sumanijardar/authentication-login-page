@@ -1,0 +1,8 @@
+for express session you need to these module
+npm i body-parser cookie-parser express-session 
+
+app.use(cors({
+  // origin:"",
+  // methods : ["GET" , "POST"],
+  credentials:true
+}));
